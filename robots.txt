@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://oynickj.github.io//github/sitemap.xml 
