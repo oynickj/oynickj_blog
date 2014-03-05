@@ -1,8 +1,98 @@
----
-layout: page
-title: "index"
-date: 2014-03-05 18:00
-comments: true
-sharing: true
-footer: true
----
+
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta htp-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="My web auto-bio.">
+  <meta name="author" content="Josh Oynick">
+
+  <title> JEO</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <style>
+  [touch-action="none"]{ -ms-touch-action: none; touch-action: none; }[touch-action="pan-x"]{ -ms-touch-action: pan-x; touch-action: pan-x; }[touch-action="pan-y"]{ -ms-touch-action: pan-y; touch-action: pan-y; }[touch-action="scroll"],[touch-action="pan-x pan-y"],[touch-action="pan-y pan-x"]{ -ms-touch-action: pan-x pan-y; touch-action: pan-x pan-y; }
+  </style>
+</head>
+
+<body>
+  <div role="container">
+    <header>
+      <div id="logo">
+        <h1>
+          <a href="/"><strong>Josh Oynick</strong></a>
+        </h1>
+      </div>
+    </header>
+    <div>
+      <ul class="navigation">
+        <li class="tab active"><a href="#about_me"> about me </a></li>
+        <li class="tab"><a href="#selected_projects"> selected projects </a></li>
+        <li class="tab"><a href="#contact">contact</a></li>
+      </ul>
+    </div>
+    <div id="main" role="main">
+      <section id="archive">
+        <div id="content">
+          <div id="about_me" class="tab_content tab_active">
+            <p>
+              Hey! Thanks for stopping by. I'm Josh and this is my personal page. I'm a <a href="https://github.com/oynickj" target="_blank" title="Check out my Github">developer</a>, <a href="https://foursquare.com/oynickj" target="_blank" title="Foursquare">borough adventurer</a>, <a href="http://www.goodreads.com/user/show/23636412-josh-oynick" target="_blank" title="Goodreads">lifelong student</a>, and believer that the most important things in life are to <a href="http://www.youtube.com/watch?v=e35SVmdx9nY" target="_blank" title="The great Conan O'Brien">work hard and be kind</a>. I was born and raised in Sarasota, Florida, and my parents are both from Mexico City, so I grew up speaking Spanish and eating Mexican Jewish food.
+            </p>
+            <p>
+              My journey as a developer began in the fall of 2013, when I enrolled in General Assembly's <a href="https://generalassemb.ly/education/web-development-immersive" target="_blank">Web Development Immersive</a> program.
+            </p>
+            <p>
+              Before that, I was an investment banking analyst at UBS and Greentech Capital Advisors, where I worked with companies in the renewable energy and infrastructure sectors.
+            </p>
+            <p>
+              I graduated from the University of Pennsylvania's Wharton School in 2011 with concentrations in Finance and Operations and Information Management. At Penn, I was in a musical comedy group called the <a href="http://www.maskandwig.com/" target="_blank">Mask and Wig Club</a> where I performed in the cast and played drums, guitar, keys, and sometimes the shaker in the band.
+            </p>
+          </div>
+          <div id="selected_projects" class="tab_content">
+            <div class="project">
+              <img src="images/granulr.png" alt="granulr" class="screenshot">
+              <p class="description"> Granulr is group project created during General Assembly's Web Development Immersive program. Built with Javascript, Ruby, and Rails, Granulr facilitates goal setting and achievement through a "user stories" model and allows users to break down large goals into specific, actionable tasks. I'm currently using Granulr to help me as I train for my first half marathon in March 2014. </p>
+            </div>
+            <div class="project">
+              <img src="images/getadilla.png" alt="getadilla" class="screenshot">
+              <p class="description">Getadilla, my first project, is an online ordering portal for a quesadilla restaurant. Inspired by my love for the world's greatest food, the app is built with Rails and incorporates login and authentication, as well as Google Translate functionality.</p>
+            </div>
+            <div class="project">
+              <img src="images/finddafoods.png" alt="finddafoods" class="screenshot">
+              <p class="description"> This project was my first foray into the awesome worlds of the Foursquare API and the D3.js JavaScript library. I love traveling and finding cool places to visit, so I wanted an app that allows users to find out which venues have the most checkins based on a city and category of their choice.</p>
+            </div>
+          </div>
+          <div id="contact" class="tab_content">
+            Feel free to contact me at oynickj@gmail.com, and you can find me on Twitter <a href="https://twitter.com/oynickj" target="_blank">@oynickj</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <section class="credits">
+      <p>
+        Created by <a href="https://twitter.com/oynickj" target="_blank">@oynickj</a>
+      </p>
+    </section>
+  </footer>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="javascripts/app.js"></script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-46321726-1', 'joshoynick.com');
+ga('send', 'pageview');
+
+</script>
+</body>
+</html>
