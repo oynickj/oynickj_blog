@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[oynickj's blog]]></title>
+  <link href="http://joshoynick.com/atom.xml" rel="self"/>
+  <link href="http://joshoynick.com/"/>
+  <updated>2014-03-05T19:00:59-05:00</updated>
+  <id>http://joshoynick.com/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
